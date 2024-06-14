@@ -1,0 +1,27 @@
+body {
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+table {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+th {
+  background-color: #f8f9fa;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.table-wrapper {
+  margin-top: 20px;
+}
